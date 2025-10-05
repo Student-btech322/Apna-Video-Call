@@ -10,11 +10,12 @@ import MicIcon from '@mui/icons-material/Mic'
 import MicOffIcon from '@mui/icons-material/MicOff'
 import ScreenShareIcon from '@mui/icons-material/ScreenShare';
 import StopScreenShareIcon from '@mui/icons-material/StopScreenShare'
-import ChatIcon from '@mui/icons-material/Chat'
+import ChatIcon from '@mui/icons-material/Chat';
+import server from '../environment';
 
 
 
-const server_url = "http://localhost:5000";
+const server_url = server;
 
 var connections = {};
 
